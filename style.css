@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+/* 
 body{
   
   font-family: 'Open Sans', sans-serif;
@@ -41,25 +42,67 @@ body{
 
 
 .wrap{
-  width: 30%;
-  margin-top: 40px;
-  margin-left: 300px;
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 0px;
   position: relative;
   top: 0%;
-  left: 50%;
+  left: 70%;
   transform: translate(-50%, -50%);
   float: left;
 }
+*/
+
+*{
+  margin: 0%;
+  font-family: 'Open Sans', sans-serif;
+}
 li a{
     text-decoration: none;
-    padding-left: 20px;
+    float: left;
+    padding: 2px;
+    color: rgba(222, 234, 248, 0.986);
+    margin-left: 10px;
+    border: 10px solid #00B4CC;
+    border-radius: 2px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-color: #00B4CC;
     
 }
+
 .ulNav{
     list-style-type: none;
     display: flex;
     border: 2px solid #00B4CC;
-    width: 50%;
+    width: auto;
+    height: 40px;
     background-color: #00B4CC;
-}
+    align-items: center;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
 
+}
+.inputan {
+  margin-left: 50%;
+  border: #00B4CC;
+}
+.searchbar{
+  border: 2px solid #1e76da;
+  border-radius: 5px;
+}
+.submitan{
+  border: 2px solid #1e76da;
+  border-radius: 5px;
+}
+.sambutan{
+  position: absolute;
+  width: 25%;
+  text-align: center;
+}
+h1{
+  
+  
+}
